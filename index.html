@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+  <script defer src="script.js"></script>
+</head>
+
+<body>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="#home">HOME</a></li>
+      <li><a href="#gallery">GALLERY</a></li>
+      <li><a href="#book">BOOK</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="section intro" id="home">
+    <div class="background">
+      <img src="images/bg1.png" draggable="false" />
+    </div>
+    <img class="logo" src="images/LOGO.svg" draggable="false" />
+  </div>
+
+
+  <div class="section" id="gallery">
+    <h1>GALLERY</h1>
+    <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+      <img class="image" src="./images/1.jpeg" draggable="false"
+        style="border-radius: 10px; transform: rotate(5deg);" />
+      <img class="image" src="./images/2.jpeg" draggable="false"
+        style="border-radius: 20px; transform: rotate(-5deg);" />
+      <img class="image" src="./images/3.jpeg" draggable="false"
+        style="border-radius: 30px; transform: rotate(10deg);" />
+      <img class="image" src="./images/4.jpeg" draggable="false"
+        style="border-radius: 40px; transform: rotate(-10deg);" />
+    </div>
+
+    <div class="container">
+      <div class="text-section">
+        <p>Luvcat nails is an independent nail business, specialising in Gelex 3D nails. We offer completely
+          customisable press-on
+          nails, as well as full on Gelex appointments. Check out the instagram, and book with us below!</p>
+      </div>
+      <div class="image-section">
+        <div class="image-container">
+          <img src="./images/1.jpeg" alt="Press on Nails" class="image">
+          <i class="fas fa-hand-sparkles icon"></i>
+        </div>
+        <div class="image-container">
+          <img src="./images/2.jpeg" alt="Gel-ex" class="image">
+          <i class="fas fa-paint-brush icon"></i>
+        </div>
+        <div class="image-container">
+          <img src="./images/3.jpeg" alt="Natural Nail Painting" class="image">
+          <i class="fas fa-hand-paper icon"></i>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+
+  <div class="section book" id="book">
+    <h1>BOOK WITH US</h1>
+    <script src='https://square.site/appointments/buyer/widget/7mc6lglxqohtc0/LZJE3DR2MD1EM.js'></script>
+  </div>
+
+</body>
+
+</html>
