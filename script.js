@@ -10,6 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   const handleOnMove = e => {
+    e.preventDefault(); // Prevent default scrolling behavior on touch devices
+
     if (track.dataset.mouseDownAt === "0") return;
 
     const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
