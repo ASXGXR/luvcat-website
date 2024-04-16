@@ -173,7 +173,7 @@ iframe {
 
 
 
-/* Navigation Bar */
+/* NAV BAR */
 ul {
   padding: 0;
   margin: 0;
@@ -182,6 +182,7 @@ ul {
 
 /* Navbar styles */
 .navbar {
+  margin-top: 10px;
   position: fixed;
   top: 0;
   left: 0;
@@ -196,7 +197,7 @@ ul {
   justify-content: center;
   /* Center the links horizontally */
   align-items: center;
-  padding: 10px 0;
+  padding: 20px 0;
   /* Padding for some space inside the navbar */
 }
 
@@ -208,14 +209,17 @@ ul {
 .navbar a {
   text-decoration: none;
   /* Remove underline */
-  color: lightgray;
+  color: white;
   font-size: 24px;
   transition: color 0.3s;
   /* Smooth transition for hover effect */
 }
 
 .navbar a:hover {
-  color: #FFF;
   font-weight: bold;
   /* Lighter color on hover */
+}
+
+.navbar a.active {
+  border-bottom: 2px solid white;
 }
